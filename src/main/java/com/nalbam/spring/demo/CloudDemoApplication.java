@@ -9,10 +9,10 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 @RibbonClient(name = "config-client", configuration = ConfigClientConfig.class)
-public class RibbonDemoApplication {
+public class CloudDemoApplication {
 
     public static void main(final String[] args) {
-        SpringApplication.run(RibbonDemoApplication.class, args);
+        SpringApplication.run(CloudDemoApplication.class, args);
     }
 
 }
