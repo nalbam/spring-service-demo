@@ -15,7 +15,7 @@ public class HelloTask {
 
     @Scheduled(fixedRate = 1000)
     public void send() {
-        log.info("Task : " + helloService.hello("Task", 10));
+        log.info("Task : " + helloService.hello("Task", 90));
     }
 
 }
