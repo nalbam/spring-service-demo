@@ -13,7 +13,7 @@ public class HelloTask {
     @Autowired
     private HelloService helloService;
 
-    @Scheduled(fixedRate = 1000)
+    @Scheduled(fixedRate = 100)
     public void send() {
         log.info("Task : " + helloService.hello("Task", 90));
     }
