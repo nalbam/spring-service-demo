@@ -1,6 +1,6 @@
 spring:
   application:
-    name: demo-ribbon
+    name: cloud-demo
   profiles:
     active: ${PROFILE:default}
   cloud:

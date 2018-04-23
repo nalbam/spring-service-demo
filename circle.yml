@@ -33,9 +33,9 @@ deployment:
     branch: /^(?!master$).*$/
     commands:
       - ~/toaster/toast.sh publish beanstalk
-      - ~/toaster/toast.sh deploy beanstalk demo-ribbon-dev
+      - ~/toaster/toast.sh deploy beanstalk cloud-demo-dev
   production:
     branch: master
     commands:
       - ~/toaster/toast.sh publish beanstalk
-      - ~/toaster/toast.sh deploy beanstalk demo-ribbon-prod
+      - ~/toaster/toast.sh deploy beanstalk cloud-demo-prod

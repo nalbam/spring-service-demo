@@ -1,1 +1,1 @@
-# spring-demo-ribbon
+# spring-cloud-demo
