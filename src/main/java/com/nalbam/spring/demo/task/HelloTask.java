@@ -13,9 +13,29 @@ public class HelloTask {
     @Autowired
     private HelloService helloService;
 
-    @Scheduled(fixedRate = 100)
+    @Scheduled(fixedRate = 300)
     public void send() {
-        log.info("Task : " + helloService.hello("Task", 90));
+        log.info("Task : " + helloService.hello("Task", 100));
+    }
+
+    @Scheduled(fixedRate = 300)
+    public void send20() {
+        log.info("Task : " + helloService.hello20("Task20"));
+    }
+
+    @Scheduled(fixedRate = 300)
+    public void send40() {
+        log.info("Task : " + helloService.hello40("Task40"));
+    }
+
+    @Scheduled(fixedRate = 300)
+    public void send60() {
+        log.info("Task : " + helloService.hello60("Task60"));
+    }
+
+    @Scheduled(fixedRate = 300)
+    public void send80() {
+        log.info("Task : " + helloService.hello80("Task80"));
     }
 
 }
