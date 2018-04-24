@@ -1,4 +1,4 @@
-# spring-cloud-demo
+# spring-service-demo
 
 ```
 PORT=8081
