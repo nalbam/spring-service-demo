@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 @ActiveProfiles("test")
 @RunWith(SpringRunner.class)
-public class CloudDemoApplicationTests {
+public class ServiceDemoApplicationTests {
 
     @Test
     public void contextLoads() {
