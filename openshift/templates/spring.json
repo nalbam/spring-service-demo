@@ -25,7 +25,7 @@
       "name": "APPLICATION_NAME",
       "displayName": "Name",
       "description": "Identifies the resources created for this application.",
-      "value": "config-server",
+      "value": "service-demo",
       "required": true
     },
     {
