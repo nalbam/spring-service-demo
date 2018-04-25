@@ -1,0 +1,6 @@
+node('maven') {
+  stage 'build'
+  openshiftBuild(buildConfig: 'service-demo', showBuildLogs: 'true')
+  stage 'deploy'
+  openshiftDeploy(deploymentConfig: 'service-demo')
+}
