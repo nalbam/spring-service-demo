@@ -39,7 +39,7 @@
       "name": "SOURCE_REPOSITORY_URL",
       "displayName": "Git Repository URL",
       "description": "Git source URI for application",
-      "value": "https://github.com/nalbam/spring-config-server",
+      "value": "https://github.com/nalbam/spring-service-demo",
       "required": true
     },
     {
